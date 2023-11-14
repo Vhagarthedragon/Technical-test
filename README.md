@@ -1,5 +1,6 @@
 # Technical-test
 Technical-test of Michaelpage
+(codigo en branch master)
 
 # Flask Data Visualization API
 
@@ -27,11 +28,11 @@ Este proyecto consiste en una aplicación Flask que proporciona endpoints para c
 3. Endpoint de consulta
    https://technical-test-404920.ue.r.appspot.com/query_data?title=Confessions%20of%20an%20Invisible%20Girl #entorno produccion
    http://127.0.0.1:8080/query_data?title=Confessions%20of%20an%20Invisible%20Girl #entorno local
-   metodo get, query
+   ## metodo GET, query
 
 5. Endpoint carga de datos
    https://technical-test-404920.ue.r.appspot.com/load_data_file #entorno produccion
    http://127.0.0.1:8080/load_data_file #entorno local
    ## metodo POST, multipart/form-data
 
- # Almacenamiento en memoria para simplificar. En producción, considera usar Google Cloud Datastore o SQL.
+ ## Almacenamiento en memoria para simplificar. En producción, considera usar Google Cloud Datastore o SQL.
