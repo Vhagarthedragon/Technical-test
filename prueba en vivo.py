@@ -5,6 +5,7 @@ def run():
     duplicados = []
     unicos = []
     
+    #como te decia, dos listas, una para guardar los duplicados y poder mostrarlos, o viceversa con los datos sin repetir
     for x in mi_lista:
         if x in unicos:
             duplicados.append(x)
